@@ -1,9 +1,3 @@
-# Purpose of this Folder
+# Asteroids Radar
 
-This folder should contain the scaffolded project files to get a student started on their project. This repo will be added to the Classroom for students to use, so please do not have any solutions in this folder.
-
-## Note: Android Kotlin Gradle Update
-Use the updated Gradle version in the `~/gradle/wrapper/gradle-wrapper.properties` file:
-```
-distributionUrl = https\://services.gradle.org/distributions/gradle-6.1.1-all.zip
-```
+Asteroids Radar is an application that receives data about asteroids from NASA's API, stores it in a database using ROOM, and displays it using a recycler view. The MVVM architecture was used. Caching was used to quickly display data to the user in the event of a network error.
